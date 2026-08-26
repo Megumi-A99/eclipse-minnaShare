@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* ====================================
+   テーマカラーの定義（木や自然をイメージ）
+==================================== */
+:root {
+  --base-color: #F9FAEF; /* 背景：温かみのあるアイボリー */
+  --main-green: #4A7C59; /* メイン：落ち着いた深い緑 */
+  --accent-yellow: #E8D33F; /* アクセント：木漏れ日のようなマスタードイエロー */
+  --text-color: #333333; /* 文字色：目に優しい濃いグレー */
+}
+
+/* ====================================
+   全体の基本設定
+==================================== */
+body {
+  background-color: var(--base-color);
+  color: var(--text-color);
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  margin: 0;
+  padding: 30px; /* 画面全体の余白 */
+}
+
+/* 見出しの装飾 */
+h1 {
+  color: var(--main-green);
+  border-bottom: 3px solid var(--main-green);
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
